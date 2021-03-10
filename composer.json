@@ -1,0 +1,37 @@
+{
+    "name": "wpmanajeninja/wpglue",
+    "description": "The WPGlue Framework for WordPress.",
+    "keywords": [
+        "framework",
+        "WPGlue"
+    ],
+    "license": "MIT",
+    "require": {
+        "wpmanageninja/wpglue-framework": "dev-master"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "wpglue": {
+            "namespace": "none"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "WPManageNinja\\App\\": "app/"
+        },
+        "classmap": ["database"],
+        "files": [
+            "boot/globals.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php echo 'Installed.'"
+        ]
+    }
+}
