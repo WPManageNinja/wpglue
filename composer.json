@@ -33,5 +33,6 @@
         "post-create-project-cmd": [
             "@php echo 'Installed.'"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
