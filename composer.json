@@ -19,7 +19,6 @@
         "psr-4": {
             "WPManageNinja\\App\\": "app/"
         },
-        "classmap": ["database"],
         "files": [
             "boot/globals.php"
         ]
