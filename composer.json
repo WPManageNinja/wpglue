@@ -1,5 +1,6 @@
 {
     "name": "wpmanageninja/wpglue",
+    "type": "project",
     "description": "The WPGlue Framework for WordPress.",
     "keywords": [
         "framework",
@@ -33,5 +34,6 @@
             "@php echo 'Installed.'"
         ]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
