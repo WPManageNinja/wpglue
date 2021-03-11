@@ -6,17 +6,14 @@
         "WPGlue"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Sheikh Heera",
+            "email": "heera.sheikh77@gmail.com"
+        }
+    ],
     "require": {
         "wpmanageninja/wpglue-framework": "dev-master"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "sort-packages": true
-    },
-    "extra": {
-        "wpglue": {
-            "namespace": "none"
-        }
     },
     "autoload": {
         "psr-4": {
@@ -27,8 +24,11 @@
             "boot/globals.php"
         ]
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "extra": {
+        "wpglue": {
+            "namespace": "none"
+        }
+    },
     "scripts": {
         "post-create-project-cmd": [
             "@php echo 'Installed.'"
