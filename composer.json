@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "wpmanageninja/wpglue-framework": "*"
+        "wpmanageninja/wpglue-framework": "dev-master"
     },
     "autoload": {
         "psr-4": {
