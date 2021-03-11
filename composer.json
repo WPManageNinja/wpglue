@@ -3,7 +3,7 @@
     "type": "project",
     "description": "The WPGlue Framework for WordPress.",
     "keywords": [
-        "WordPress"
+        "WordPress",
         "framework",
         "WPGlue"
     ],
@@ -12,6 +12,12 @@
         {
             "name": "Sheikh Heera",
             "email": "heera.sheikh77@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WPManageNinja/wpglue-framework"
         }
     ],
     "require": {
